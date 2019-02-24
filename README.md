@@ -21,3 +21,5 @@ Third 10: The increment, to change the value of the loop.
 
 5. How can you make the ellipse trail longer?
 
+change the "-50" in x.slice(-50) to a less number, keep more values than 5o values
+
