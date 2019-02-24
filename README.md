@@ -11,5 +11,13 @@ First 10: initiallizer, to set the value of x at the beginning.
 Second 10: condition, to check if the loop reaches the maxium, and should run the loop again.
 Third 10: The increment, to change the value of the loop.
 
-3. What does a for loop that runs 100 times look like?
-The points will form a line with 4 pixels gaps between each on them.
+3. How many times does the loop body run each frame, once the x and y arrays are full?
+
+6 times.
+
+4. What are two ways of increasing the spacing between rings?
+
+1st: increase the "10" in i=i+10 / 2nd: 
+
+5. How can you make the ellipse trail longer?
+
