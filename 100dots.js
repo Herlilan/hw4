@@ -4,16 +4,10 @@ function setup() {
 }
 
 function draw() {
-  var dots = [];
-  for (i = 0; i < 100; i++) {
-    var dot = {
-      x: random(width),
-      y: random(height),
-    };
-    dots.push(dot);
-  }
-  for (var i = 0; i < dots.length; i++) {
-    stroke(dots[i].x, dots[i].y, 100);
-    point(dots[i].x, dots[i].y);
+  for (var i = 0; i <= 99; i++) {
+    var x = random(width);
+    var y = random(height);
+    stroke(x, y, 100);
+    point(x, y);
   }
 }
